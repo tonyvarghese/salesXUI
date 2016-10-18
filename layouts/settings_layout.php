@@ -1,5 +1,7 @@
 <?php
 
+include_once("../config.php");
+
 session_start();
 
 if(isset($_SESSION['login'])){
@@ -26,6 +28,7 @@ else
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
+    <script type="text/javascript">var documentRoot = "<?= DOCUMENT_ROOT ?>";</script>
     <script src="../js/jquery-3.1.1.min.js"></script>
     <script src="../js/scripts.js"></script>
 

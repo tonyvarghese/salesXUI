@@ -2,6 +2,9 @@
  * Created by Tony on 17-Oct-16.
  */
 
+
+
+
 var Profile = (function($){
 
     return {
@@ -20,7 +23,7 @@ var Profile = (function($){
                 $("#settings-profile #change-password-button button").show();
             });
 
-            $("#settings-profile #edit-password-change").click(function(){
+            $("#settings-profile form").submit(function(event){
 
                 var newPassword = $("#settings-profile #new-password").val();
                 var confirmNewPassword = $("#settings-profile #confirm-new-password").val();
@@ -30,13 +33,14 @@ var Profile = (function($){
                     return false;
                 }
 
-                $.ajax({url: "/src/ajax.php", success: function(result){
+                $.ajax({url: documentRoot + "/src/ajax.php", success: function(result){
                     console.log(result);
                     $("#msg-box").html("Success").show();
                 }});
 
                 return false;
             });
+
         }
     }
 

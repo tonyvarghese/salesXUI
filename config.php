@@ -7,3 +7,4 @@
  */
 
 define("API_DOMAIN", "http://www.salesx.io");
+define("DOCUMENT_ROOT", "http://dev.test.com:8080/nikhil/salesXWebNew"); //eg: http://www.salesx.io
