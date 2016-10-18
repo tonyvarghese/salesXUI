@@ -1,0 +1,443 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flexbox Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+</head>
+<body class="layout">
+<div class="page js-page">
+
+    <div class="wrap container-fluid">
+
+        <div class="header-wrapper">
+            <div w3-include-html="includes/header.html"></div>
+        </div>
+
+
+        <div class="row main-content">
+
+            <div class="col-xs-3">
+                <div class="box-container sidebar-wrapper">
+                    <div w3-include-html="includes/sidebar.html"></div>
+                </div>
+            </div>
+
+            <div class="col-xs-9">
+                <div class="box-container">
+                    <div class="row middle-container">
+
+                        <div class="col-xs-12">
+                            <div class="container-section">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="middle-container-heading">VIRTUAL NUMBERS</div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-offset-1 col-xs-7">
+                                        <div class="box">
+
+                                            <table>
+                                                <thead>
+                                                <tr>
+                                                    <th>NAME</th>
+                                                    <th>COUNTRY</th>
+                                                    <th>AREA CODE</th>
+                                                    <th colspan="2">NUMBER</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>California</td>
+                                                    <td>USA</td>
+                                                    <td>12</td>
+                                                    <td>123456789</td>
+                                                    <td><span class="fa fa-trash"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>California</td>
+                                                    <td>USA</td>
+                                                    <td>12</td>
+                                                    <td>123456789</td>
+                                                    <td><span class="fa fa-trash"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>New Delhi</td>
+                                                    <td>India</td>
+                                                    <td>91</td>
+                                                    <td>123456789</td>
+                                                    <td><span class="fa fa-trash"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input class="input-line" type="text" placeholder="NAME"></td>
+                                                    <td>
+                                                        <select class="select-line">
+                                                            <option value="" disabled selected>(Select Country)</option>
+                                                            <option>India</option>
+                                                            <option>USA</option>
+                                                        </select>
+                                                    </td>
+                                                    <td>
+                                                        <select class="select-line">
+                                                            <option value="" disabled selected>(Select Area)</option>
+                                                            <option>91</option>
+                                                            <option>12</option>
+                                                            <option>11</option>
+                                                        </select>
+                                                    </td>
+                                                    <td>
+                                                        <select class="select-line">
+                                                            <option value="" disabled selected>(Select Number)</option>
+                                                            <option>9876543210</option>
+                                                            <option>1234567890</option>
+                                                            <option>6548793210</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><span class="fa fa-trash"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5">
+                                                        <button class="blue-button">ADD</button>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <div class="box">
+                                            <div class="small-text">
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="settings-hr">
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-12">
+                            <div class="container-section">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="middle-container-heading">CALL FORWARDING</div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-offset-1 col-xs-7">
+                                        <div class="box">
+
+                                            <table>
+                                                <thead>
+                                                <tr>
+                                                    <th>Forwarded To</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>91987654321</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <div class="box">
+                                            <div class="small-text">
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="settings-hr">
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-12">
+                            <div class="container-section">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="middle-container-heading">CALL RECORDING</div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-offset-1 col-xs-7">
+                                        <div class="box">
+                                            <table>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+                                                        <label for="checkbox-1" class="checkbox-custom-label">Record all
+                                                            calls</label>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <div class="box">
+                                            <div class="small-text">
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="settings-hr">
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-12">
+                            <div class="container-section">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="middle-container-heading">VOICEMAIL GREETING</div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-offset-1 col-xs-7">
+                                        <div class="box">
+                                            <table>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+                                                        <label for="checkbox-1" class="checkbox-custom-label">
+                                                            Record all calls
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        00.51
+                                                    </td>
+                                                    <td>
+                                                        <span class="fa fa-play-circle-o"></span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="fa fa-trash"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="3">
+                                                        <div class="box container-margin-left">
+                                                            <button class="blue-button">UPLOAD FILE</button>
+                                                            <span class="container-margin-left">-OR-</span>
+                                                            <button class="blue-button container-margin-left">RECORD FROM CALL</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <div class="box">
+                                            <div class="small-text">
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <hr class="settings-hr">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12">
+                            <div class="container-section">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="middle-container-heading">VOICEMAIL DROP</div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-offset-1 col-xs-7">
+                                        <div class="box">
+                                            <table>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input id="checkbox-12" class="checkbox-custom" name="checkbox-1" type="checkbox">
+                                                        <label for="checkbox-12" class="checkbox-custom-label">
+                                                            Recording1.mp3
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        00.51
+                                                    </td>
+                                                    <td>
+                                                        <span class="fa fa-play-circle-o"></span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="fa fa-trash"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input id="checkbox-13" class="checkbox-custom" name="checkbox-1" type="checkbox">
+                                                        <label for="checkbox-13" class="checkbox-custom-label">
+                                                            Recording2.mp3
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        00.51
+                                                    </td>
+                                                    <td>
+                                                        <span class="fa fa-play-circle-o"></span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="fa fa-trash"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="3">
+                                                        <div class="box container-margin-left">
+                                                            <button class="blue-button">UPLOAD FILE</button>
+                                                            <span class="container-margin-left">-OR-</span>
+                                                            <button class="blue-button container-margin-left">RECORD FROM CALL</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <div class="box">
+                                            <div class="small-text">
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <hr class="settings-hr">
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-12">
+                            <div class="container-section">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="middle-container-heading">ON HOLD MUSIC</div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-offset-1 col-xs-7">
+                                        <div class="box">
+                                            <table>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input id="checkbox-12" class="checkbox-custom" name="checkbox-1" type="checkbox">
+                                                        <label for="checkbox-12" class="checkbox-custom-label">
+                                                            Recording1.mp3
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        00.51
+                                                    </td>
+                                                    <td>
+                                                        <span class="fa fa-play-circle-o"></span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="fa fa-trash"></span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td colspan="3">
+                                                        <div class="box container-margin-left">
+                                                            <button class="blue-button">UPLOAD FILE</button>
+                                                            <span class="container-margin-left">-OR-</span>
+                                                            <button class="blue-button container-margin-left">RECORD FROM CALL</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <div class="box">
+                                            <div class="small-text">
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+                                                adfasdfa df asdfasdf asf adfasdfa dfadfasdfa df asdfasdf asf adfasdfa df
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <hr class="settings-hr">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!--<footer class="page-footer">-->
+        <!--<div class="row">-->
+        <!--<div class="col-xs start"><a class="tag" href="#">@Waybeo</a></div>-->
+        <!--<div class="col-xs end"><a class="link-top" href="#top">...</a></div>-->
+        <!--</div>-->
+        <!--</footer>-->
+
+    </div>
+</div>
+
+<script>
+    w3IncludeHTML();
+</script>
+
+</body>
+</html>
